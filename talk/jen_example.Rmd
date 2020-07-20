@@ -1,0 +1,38 @@
+---
+title: "Testing out Ari"
+author: "Jennifer Chang"
+output: ioslides_presentation
+---
+
+<!--
+Hello and this is a test of Ari.  Ari generates artificial speech from an R markdown file.
+-->
+
+## What is the bioinformatic workbook?
+
+- Command line basics
+- Using an HPC and slurm
+- Introduction to software like BLAST, HiSat2, and Trinity
+
+<!-- The bioinformatic workbook is a collection of project based tutorials. Tutorials include command line basics, using an HPC cluster, submitting slurm jobs, and introduction to commonly used software like BLAST, Hi Sat and trinity. -->
+
+## Getting started
+
+- [Iowa State HPC Cluster](https://www.hpc.iastate.edu/guides/introduction-to-hpc-clusters/logging-to-a-cluster)
+- [Bioinformatic Workbook](https://bioinformaticsworkbook.org)
+
+```{bash, eval=FALSE}
+ssh <username>@hpc.somewhere
+sbatch yourscript.slurm
+```
+
+<!-- You can sign up for access to the local Iowa State HPC Cluster and start working through the tutorials. With an software already installed, you can focus on the biological meaning of the results. -->
+
+## Conclusion
+
+- Thank you!
+
+<!--
+Thank you to the ari developers and good luck on your bio informatics journey!
+-->
+
